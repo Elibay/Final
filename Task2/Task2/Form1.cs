@@ -15,6 +15,21 @@ namespace Task2
         public Form1()
         {
             InitializeComponent();
+            for (int i = 0; i < 3; ++i)
+                for (int j = 0; j < 3; ++j)
+                {
+                    Button b = new Button();
+                    b.Text = "0";
+                    b.Location = new Point(i * 30, j * 30);
+                    b.Size = new Size(30, 30);
+                    b.Click += new EventHandler(button_Click);
+                    this.Controls.Add(b);
+                }
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
