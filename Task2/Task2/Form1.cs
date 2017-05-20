@@ -12,7 +12,7 @@ namespace Task2
 {
     public partial class Form1 : Form
     {
-        Button[,] b = new Button[3, 3];
+        Button[,] b = new Button[5, 5];
         public Form1()
         {
             InitializeComponent();
@@ -40,12 +40,12 @@ namespace Task2
         }
         private void button_Click(object sender, EventArgs e)
         {
-            Button b;
-            //b.Text = "0";
-            MessageBox.Show(sender.ToString());
-            int x = int.Parse(b.Text);
+            Button bb = new Button();
+            bb.Text = "0";
+            MessageBox.Show(e.ToString());
+            int x = int.Parse(bb.Text);
             ++x;
-            b.Text = x.ToString();
+            bb.Text = x.ToString();
             if (isPrime (x))
             {
                 int y = int.Parse (textBox1.Text);
