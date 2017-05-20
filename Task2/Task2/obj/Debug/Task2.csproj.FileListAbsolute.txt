@@ -1,0 +1,9 @@
+C:\Users\Elibay\Desktop\Final\Task2\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+C:\Users\Elibay\Desktop\Final\Task2\Task2\obj\Debug\Task2.Form1.resources
+C:\Users\Elibay\Desktop\Final\Task2\Task2\obj\Debug\Task2.Properties.Resources.resources
+C:\Users\Elibay\Desktop\Final\Task2\Task2\obj\Debug\Task2.csproj.GenerateResource.Cache
+C:\Users\Elibay\Desktop\Final\Task2\Task2\bin\Debug\Task2.exe.config
+C:\Users\Elibay\Desktop\Final\Task2\Task2\bin\Debug\Task2.exe
+C:\Users\Elibay\Desktop\Final\Task2\Task2\bin\Debug\Task2.pdb
+C:\Users\Elibay\Desktop\Final\Task2\Task2\obj\Debug\Task2.exe
+C:\Users\Elibay\Desktop\Final\Task2\Task2\obj\Debug\Task2.pdb

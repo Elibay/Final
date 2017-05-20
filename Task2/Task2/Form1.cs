@@ -12,24 +12,45 @@ namespace Task2
 {
     public partial class Form1 : Form
     {
+        Button[,] b = new Button[3, 3];
         public Form1()
         {
             InitializeComponent();
-            for (int i = 0; i < 3; ++i)
-                for (int j = 0; j < 3; ++j)
+            textBox1.Text = "0";
+            for (int i = 1; i < 4; ++i)
+                for (int j = 1; j < 4; ++j)
                 {
-                    Button b = new Button();
-                    b.Text = "0";
-                    b.Location = new Point(i * 30, j * 30);
-                    b.Size = new Size(30, 30);
-                    b.Click += new EventHandler(button_Click);
-                    this.Controls.Add(b);
+                    b[i, j] = new Button();
+                    b[i, j].Text = "0";
+                    b[i, j].Location = new Point(i * 50, j * 50);
+                    b[i, j].Size = new Size(50, 50);
+                    b[i, j].Click += new EventHandler(button_Click);
+                    this.Controls.Add(b[i, j]);
                 }
         }
-
+        bool isPrime (int x)
+        {
+            if (x == 1)
+                return false;
+            for (int i = 2; i * i <= x; ++i)
+                if (x % i == 0)
+                    return false;
+            return true;
+        }
         private void button_Click(object sender, EventArgs e)
         {
-            
+            //Button b = new Button();
+            //b.Text = "0";
+            MessageBox.Show(sender.ToString());
+            int x = int.Parse(b.Text);
+            ++x;
+            b.Text = x.ToString();
+            if (isPrime (x))
+            {
+                int y = int.Parse (textBox1.Text);
+                ++y;
+                textBox1.Text = y.ToString();
+            }
         }
     }
 }
