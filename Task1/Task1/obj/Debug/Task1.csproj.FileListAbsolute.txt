@@ -1,0 +1,6 @@
+c:\users\elibay\documents\visual studio 2017\Projects\Task1\Task1\bin\Debug\Task1.exe.config
+c:\users\elibay\documents\visual studio 2017\Projects\Task1\Task1\bin\Debug\Task1.exe
+c:\users\elibay\documents\visual studio 2017\Projects\Task1\Task1\bin\Debug\Task1.pdb
+c:\users\elibay\documents\visual studio 2017\Projects\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+c:\users\elibay\documents\visual studio 2017\Projects\Task1\Task1\obj\Debug\Task1.exe
+c:\users\elibay\documents\visual studio 2017\Projects\Task1\Task1\obj\Debug\Task1.pdb
