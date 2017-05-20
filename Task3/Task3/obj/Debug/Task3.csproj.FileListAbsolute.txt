@@ -1,0 +1,17 @@
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\obj\Debug\Task3.Form1.resources
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\obj\Debug\Task3.Properties.Resources.resources
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\obj\Debug\Task3.csproj.GenerateResource.Cache
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\bin\Debug\Task3.exe.config
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\bin\Debug\Task3.exe
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\bin\Debug\Task3.pdb
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\obj\Debug\Task3.exe
+C:\Users\Elibay\Documents\Visual Studio 2017\Projects\Task3\Task3\obj\Debug\Task3.pdb
+C:\Users\Elibay\Desktop\Final\Task3\Task3\bin\Debug\Task3.exe.config
+C:\Users\Elibay\Desktop\Final\Task3\Task3\bin\Debug\Task3.exe
+C:\Users\Elibay\Desktop\Final\Task3\Task3\bin\Debug\Task3.pdb
+C:\Users\Elibay\Desktop\Final\Task3\Task3\obj\Debug\Task3.csprojResolveAssemblyReference.cache
+C:\Users\Elibay\Desktop\Final\Task3\Task3\obj\Debug\Task3.Form1.resources
+C:\Users\Elibay\Desktop\Final\Task3\Task3\obj\Debug\Task3.Properties.Resources.resources
+C:\Users\Elibay\Desktop\Final\Task3\Task3\obj\Debug\Task3.csproj.GenerateResource.Cache
+C:\Users\Elibay\Desktop\Final\Task3\Task3\obj\Debug\Task3.exe
+C:\Users\Elibay\Desktop\Final\Task3\Task3\obj\Debug\Task3.pdb
