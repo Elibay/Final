@@ -25,6 +25,7 @@ namespace Task2
                     b[i, j].Location = new Point(i * 50, j * 50);
                     b[i, j].Size = new Size(50, 50);
                     b[i, j].Click += new EventHandler(button_Click);
+                    b[i, j].Name = i.ToString() + " " + j.ToString();
                     this.Controls.Add(b[i, j]);
                 }
         }
@@ -39,7 +40,7 @@ namespace Task2
         }
         private void button_Click(object sender, EventArgs e)
         {
-            //Button b = new Button();
+            Button b;
             //b.Text = "0";
             MessageBox.Show(sender.ToString());
             int x = int.Parse(b.Text);
