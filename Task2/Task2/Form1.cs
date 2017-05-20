@@ -40,12 +40,12 @@ namespace Task2
         }
         private void button_Click(object sender, EventArgs e)
         {
-            Button bb = new Button();
-            bb.Text = "0";
-            MessageBox.Show(e.ToString());
-            int x = int.Parse(bb.Text);
+            Button b = new Button();
+            int q = a.X / 50 + 1, w = a.Y / 50 + 1;
+            MessageBox.Show(q.ToString() + " " +  w.ToString());
+            int x = int.Parse(b[q, w].Text);
             ++x;
-            bb.Text = x.ToString();
+            b[q, w].Text = x.ToString();
             if (isPrime (x))
             {
                 int y = int.Parse (textBox1.Text);
