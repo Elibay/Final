@@ -27,7 +27,7 @@ namespace Task2
                     b[i, j].Size = new Size(50, 50);
                     b[i, j].Click += new EventHandler(button_Click);
                     b[i, j].Name = i.ToString() + " " + j.ToString();
-                  //  this.Controls.Add(b[i, j]);
+                    this.Controls.Add(b[i, j]);
                 }
         }
         bool isPrime (int x)
@@ -41,11 +41,12 @@ namespace Task2
         }
         private void button_Click(object sender, EventArgs e)
         {
+            Button b = sender as Button;
             int q = a.X / 50 + 1, w = a.Y / 50 + 1;
-            MessageBox.Show(q.ToString() + " " +  w.ToString());
-            int x = int.Parse(b[q, w].Text);
+            //MessageBox.Show(q.ToString() + " " +  w.ToString());
+            int x = int.Parse(b.Text);
             ++x;
-            b[q, w].Text = x.ToString();
+            b.Text = x.ToString();
             if (isPrime (x))
             {
                 int y = int.Parse (textBox1.Text);
@@ -58,122 +59,6 @@ namespace Task2
         {
             a = e.Location;
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button1.Text);
-            ++x;
-            button1.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button2.Text);
-            ++x;
-            button2.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button3.Text);
-            ++x;
-            button3.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button6.Text);
-            ++x;
-            button6.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button5.Text);
-            ++x;
-            button5.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button4.Text);
-            ++x;
-            button4.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button9.Text);
-            ++x;
-            button9.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button8.Text);
-            ++x;
-            button8.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            int x = int.Parse(button7.Text);
-            ++x;
-            button7.Text = x.ToString();
-            if (isPrime(x))
-            {
-                int y = int.Parse(textBox1.Text);
-                ++y;
-                textBox1.Text = y.ToString();
-            }
-        }
+        
     }
 }

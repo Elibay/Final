@@ -16,7 +16,7 @@ namespace Task3
         Bitmap bmp;
         string[] s = new String[30];
         int[] x = new int[30], y = new int[30];
-        int k = 12;
+        int k = 0;
         public Form1()
         {
             InitializeComponent();
